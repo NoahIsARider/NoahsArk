@@ -141,6 +141,36 @@
         color: var(--muted);
       }
 
+      .signal {
+        margin-top: 2.5rem;
+        padding: 1rem 1.1rem 1rem 1.2rem;
+        border: 1px solid var(--line);
+        border-left: 3px solid var(--accent);
+        background: rgba(143, 247, 217, 0.04);
+        color: var(--muted);
+        font-size: 0.9rem;
+      }
+
+      .signal strong {
+        display: block;
+        margin-bottom: 0.3rem;
+        color: var(--accent);
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.14em;
+      }
+
+      .signal a {
+        color: var(--accent);
+        text-decoration: none;
+      }
+
+      .signal a:hover,
+      .signal a:focus-visible {
+        color: var(--text);
+        outline: none;
+      }
+
       @media (max-width: 760px) {
         main {
           padding-top: 2rem;
@@ -263,6 +293,14 @@
           </li>
         </ul>
       </section>
+
+      <div class="signal">
+        <strong>Warning</strong>
+        unidentified abyssal signal detected.
+        designation:
+        <a href="https://clawbot-triton.vercel.app/" target="_blank" rel="noreferrer">Triton</a>
+        // origin uncertain
+      </div>
 
       <footer>
         <div>status: online / format: static html / deploy: github pages</div>
