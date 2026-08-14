@@ -21,8 +21,6 @@ const linkGroups = [
     links: [
       { label: 'Triton', href: 'https://clawbot-triton.vercel.app/', description: 'Deep-sea engineering logs' },
       { label: 'Palaemon', href: 'https://palaemon-harbor.vercel.app/', description: 'Harbor of new frontiers' },
-      { label: 'SaddleDove Dev', href: 'https://saddledove.github.io/', description: 'Digital archaeology blog' },
-      { label: 'Saddle Notes', href: 'https://saddledove.github.io/saddle-notes/', description: 'Poetry & music notes' },
     ],
   },
   {
