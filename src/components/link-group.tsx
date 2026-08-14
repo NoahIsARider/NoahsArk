@@ -26,14 +26,14 @@ export function LinkGroup({ title, index, links, className = '', children }: Lin
       <div className="flex items-center gap-4 mb-6">
         <span
           className="text-[0.65rem] font-mono tracking-[0.3em] uppercase text-[#e63946]"
-          style={{ fontFamily: "'Space Grotesk', monospace" }}
+          style={{ fontFamily: "'Orbitron', monospace" }}
         >
           {index}
         </span>
         <div className="h-px flex-1 bg-gradient-to-r from-[#e63946]/40 to-transparent" />
         <h2
           className="text-sm font-light tracking-[0.2em] uppercase text-[#f5f0e8]/70"
-          style={{ fontFamily: "'Space Grotesk', sans-serif" }}
+          style={{ fontFamily: "'Orbitron', sans-serif" }}
         >
           {title}
         </h2>

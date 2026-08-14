@@ -15,15 +15,15 @@ export function HeroBackground() {
     <div className="fixed inset-0 z-0 overflow-hidden">
       {/* Main background image */}
       <div
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-60"
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-75"
         style={{
           backgroundImage: 'url(/hero-bg.jpeg)',
-          filter: 'contrast(1.05) brightness(0.92)',
+          filter: 'contrast(1.05) brightness(1.08)',
         }}
       />
 
       {/* Deep space gradient overlay */}
-      <div className="absolute inset-0 bg-gradient-to-b from-[#0a0a0a]/45 via-[#0a0a0a]/20 to-[#0a0a0a]/65" />
+      <div className="absolute inset-0 bg-gradient-to-b from-[#0a0a0a]/30 via-[#0a0a0a]/15 to-[#0a0a0a]/50" />
 
       {/* Diagonal crimson accent line */}
       <div

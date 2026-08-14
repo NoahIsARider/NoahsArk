@@ -106,7 +106,7 @@ export default function Home() {
             >
               <h1
                 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tighter text-[#f5f0e8] leading-[0.9]"
-                style={{ fontFamily: "'Space Grotesk', sans-serif" }}
+                style={{ fontFamily: "'Orbitron', sans-serif" }}
               >
                 NEXUS
               </h1>
@@ -119,7 +119,7 @@ export default function Home() {
               <div className="h-px flex-1 max-w-32 bg-[#e63946]/60" />
               <p
                 className="text-xs md:text-sm tracking-[0.3em] uppercase text-[#6b7b8d] font-light"
-                style={{ fontFamily: "'Space Grotesk', sans-serif" }}
+                style={{ fontFamily: "'Orbitron', sans-serif" }}
               >
                 Link Portal
               </p>
